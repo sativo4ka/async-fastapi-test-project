@@ -8,7 +8,6 @@ from pydantic import BaseModel, EmailStr, Field
 
 app = FastAPI(title="User Profile API", version="1.0.0")
 
-# Для тестового приложения данные хранятся в памяти.
 users = {}
 tokens = {}
 
