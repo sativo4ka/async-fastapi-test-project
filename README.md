@@ -15,12 +15,6 @@ pytest
 
 Тесты используют `httpx.ASGITransport`, поэтому отдельно запускать сервер на localhost не требуется.
 
-## Запуск приложения отдельно
-```bash
-uvicorn app.main:app --reload
-```
-Документация API будет доступна по адресу `http://127.0.0.1:8000/docs`.
-
 ## Allure-отчёт
 ```bash
 pytest --alluredir=allure-results
