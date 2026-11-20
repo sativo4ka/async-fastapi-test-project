@@ -3,20 +3,6 @@
 ## Что реализовано
 Небольшое API для регистрации, входа, просмотра и редактирования профиля. Тесты написаны на `pytest`, `pytest-asyncio` и `httpx.AsyncClient`.
 
-## Структура
-```text
-async_fastapi_test_project/
-├── app/
-│   ├── __init__.py
-│   └── main.py
-├── tests/
-│   ├── conftest.py
-│   └── test_app.py
-├── pytest.ini
-├── requirements.txt
-└── report.md
-```
-
 ## Запуск в Windows
 Откройте терминал в папке проекта:
 
